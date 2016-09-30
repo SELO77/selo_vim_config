@@ -1,7 +1,10 @@
 " SELO Custom settings
 
 " for Annotation
-vmap <C-a> : norm i
+vmap <leader>ad : norm 1x<cr>
+au FileType python vmap <leader>aa : norm i# <cr>
+
+" echo "Welcome SELO VIM based on awesome vim"
 
 try
 "   colorscheme Molokai 
